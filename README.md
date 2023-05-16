@@ -34,6 +34,13 @@ npm start
 ### API Endpoints
 
 GET /api/comments
+(http://localhost:3001/api/comments).
+   
+GET /api/posts
+(http://localhost:3001/api/posts).
+
+
+   
 Retrieves comments from the JSONPlaceholder API.
 
 ### Parameters

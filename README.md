@@ -28,7 +28,8 @@ npm install
 
 Start the service:
 npm start
-[The service will be accessible at](http://localhost:30/).
+
+(http://localhost:3001/).
 
 ### API Endpoints
 
@@ -39,16 +40,14 @@ Retrieves comments from the JSONPlaceholder API.
 
 limit (optional): Limits the number of comments returned in the response.
 Example usage:
-[GET](http://localhost:3001/api/comments?limit=5/)
+http://localhost:3001/api/comments?limit=5/
 GET /api/posts
 Retrieves posts from the JSONPlaceholder API.
 
 ### Parameters
 
 limit (optional): Limits the number of posts returned in the response.
-Example usage:
-
-Copy code
-[GET](http://localhost:3001/api/posts?limit=5/)
+Example usage
+http://localhost:3001/api/posts?limit=5/
 
 Stop the service by pressing Ctrl + C in the terminal.
